@@ -2,7 +2,7 @@
 #include <tinyCore.h>
 
 const uint8_t LED = SIG;
-const uint8_t BTN = D9;
+const uint8_t BTN = D8;
 
 void setup() {
   pinMode(LED, OUTPUT);
