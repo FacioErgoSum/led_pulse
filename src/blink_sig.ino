@@ -7,7 +7,7 @@ const uint8_t BTN = D8;
 void setup() {
   pinMode(LED, OUTPUT);
   pinMode(BTN, INPUT_PULLUP);
-  Serial.begin(115200);
+  Serial.begin(9600);
 }
 
 void loop() {
@@ -17,5 +17,5 @@ void loop() {
   } else {
     digitalWrite(LED, LOW);
   }
-  delay(20);
+  delay(500);
 }
