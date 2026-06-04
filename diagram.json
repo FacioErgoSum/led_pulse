@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "editor": "tinystudio",
+  "parts": [
+    {
+      "id": "tinycore",
+      "type": "tinycore",
+      "x": 90,
+      "y": 250
+    },
+    {
+      "id": "btn1",
+      "type": "button",
+      "x": 380,
+      "y": 130
+    },
+    {
+      "id": "r1",
+      "type": "resistor",
+      "x": 470,
+      "y": 150
+    },
+    {
+      "id": "led1",
+      "type": "led",
+      "x": 640,
+      "y": 130
+    }
+  ],
+  "connections": [
+    [
+      "tinycore:SIG",
+      "btn1:1",
+      "#e53b3b"
+    ],
+    [
+      "btn1:2",
+      "r1:a",
+      "#e53b3b"
+    ],
+    [
+      "r1:b",
+      "led1:A",
+      "#36c46b"
+    ],
+    [
+      "led1:K",
+      "tinycore:GND",
+      "#8b94c8"
+    ]
+  ]
+}
