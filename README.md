@@ -7,7 +7,7 @@ Built with **tinyStudio** for the **tinyCore** ESP32-S3 board by MR.INDUSTRIES.
 ## What it does
 
 - [x] Reads the input
-- [x] Drives the `SIG` LED
+- [x] Drives the `SIG` LEDDDD
 - [ ] Streams state over serial at `115200` baud
 
 ## Signal flow
